@@ -1,0 +1,73 @@
+:root {
+    --primary: #1f2937;
+    --secondary: #e5e7eb;
+    --accent: #d4a63a;
+    --background: #e5e7eb;
+}
+
+/* GENERAL PAGE */
+body {
+    background: var(--background);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* HEADER */
+#header {
+    background: var(--primary);
+    color: white;
+    padding: 18px 30px;
+}
+
+#site-name a {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* BRANDING */
+#branding h1,
+#branding h1 a {
+    color: white;
+}
+
+/* LINKS */
+a:link,
+a:visited {
+    color: var(--primary);
+}
+
+/* MODULE HEADINGS */
+.module h2,
+.module caption,
+.inline-group h2 {
+    background: var(--primary);
+    color: white;
+}
+
+/* BREADCRUMBS */
+div.breadcrumbs {
+    background: var(--secondary);
+    color: white;
+}
+
+/* BUTTONS */
+.button,
+input[type=submit],
+input[type=button],
+.submit-row input {
+    background: var(--primary);
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover,
+input[type=submit]:hover {
+    background: var(--accent);
+    color: var(--primary);
+}
+
+/* CONTENT AREA */
+#content {
+    padding: 25px;
+}
